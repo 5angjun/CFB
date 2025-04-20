@@ -1,0 +1,10 @@
+^C:\USERS\BEST_\DESKTOP\CFB\BUILD\CMAKEFILES\3FF71A0DE10E62C8FFF23EA3E9AD13C3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/best_/Desktop/CFB -BC:/Users/best_/Desktop/CFB/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/best_/Desktop/CFB/build/CFB.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
