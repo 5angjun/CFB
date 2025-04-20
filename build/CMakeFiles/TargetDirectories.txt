@@ -1,3 +1,0 @@
-C:/Users/best_/Desktop/CFB/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/best_/Desktop/CFB/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/best_/Desktop/CFB/build/Sangjun/CMakeFiles/SANGJUN_driver.dir
