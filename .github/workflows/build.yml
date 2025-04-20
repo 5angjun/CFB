@@ -36,6 +36,6 @@ jobs:
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: CFB_x64_Release_${{ github.sha }}
-        path: build/
+        name: SANGJUN_driver_${{ github.sha }}
+        path: build/Sangjun/Release/SANGJUN.sys
         retention-days: 1
