@@ -65,7 +65,7 @@ jobs:
         cmake --install ./build --config ${{ matrix.configuration }} --prefix ./artifact --verbose
 
     - name: Upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: matrix.configuration == 'RelWithDebInfo'
       with:
         name: CFB_${{ matrix.platform }}_${{ matrix.configuration }}_${{ github.head_ref }}_${{ github.sha }}
