@@ -38,3 +38,8 @@ set(CFB_ROOT_DIR ${CMAKE_CURRENT_LIST_DIR})
 # Build
 #
 add_subdirectory(${CFB_ROOT_DIR}/Sangjun)
+
+
+
+add_subdirectory(${CFB_ROOT_DIR}/Sangjun_wdf)
+
