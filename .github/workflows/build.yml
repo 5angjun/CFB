@@ -37,5 +37,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: SANGJUN_driver_${{ github.sha }}
-        path: build/Sangjun/Release/SANGJUN.sys
+        path: |
+          build/Sangjun/Release/SANGJUN.sys
+          build/Sangjun_wdf/Release/SANGJUN_wdf_driver.sys
         retention-days: 1
